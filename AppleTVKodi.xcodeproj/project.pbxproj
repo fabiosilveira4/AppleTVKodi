@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5801BE01DFB28FF00167599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5801BDF1DFB28FF00167599 /* main.m */; };
+		E5801BE31DFB28FF00167599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5801BE21DFB28FF00167599 /* AppDelegate.m */; };
+		E5801BE61DFB28FF00167599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5801BE51DFB28FF00167599 /* ViewController.m */; };
+		E5801BE91DFB28FF00167599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5801BE71DFB28FF00167599 /* Main.storyboard */; };
+		E5801BEB1DFB28FF00167599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5801BEA1DFB28FF00167599 /* Assets.xcassets */; };
+		E5801BF61DFB28FF00167599 /* AppleTVKodiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5801BF51DFB28FF00167599 /* AppleTVKodiTests.m */; };
+		E5801C011DFB28FF00167599 /* AppleTVKodiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5801C001DFB28FF00167599 /* AppleTVKodiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5801BF21DFB28FF00167599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5801BD31DFB28FF00167599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5801BDA1DFB28FF00167599;
+			remoteInfo = AppleTVKodi;
+		};
+		E5801BFD1DFB28FF00167599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5801BD31DFB28FF00167599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5801BDA1DFB28FF00167599;
+			remoteInfo = AppleTVKodi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5801BDB1DFB28FF00167599 /* AppleTVKodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTVKodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5801BDF1DFB28FF00167599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5801BE11DFB28FF00167599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5801BE21DFB28FF00167599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5801BE41DFB28FF00167599 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5801BE51DFB28FF00167599 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5801BE81DFB28FF00167599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5801BEA1DFB28FF00167599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5801BEC1DFB28FF00167599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5801BF11DFB28FF00167599 /* AppleTVKodiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTVKodiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5801BF51DFB28FF00167599 /* AppleTVKodiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTVKodiTests.m; sourceTree = "<group>"; };
+		E5801BF71DFB28FF00167599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5801BFC1DFB28FF00167599 /* AppleTVKodiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTVKodiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5801C001DFB28FF00167599 /* AppleTVKodiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTVKodiUITests.m; sourceTree = "<group>"; };
+		E5801C021DFB28FF00167599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5801BD81DFB28FF00167599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5801BEE1DFB28FF00167599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5801BF91DFB28FF00167599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5801BD21DFB28FF00167599 = {
+			isa = PBXGroup;
+			children = (
+				E5801BDD1DFB28FF00167599 /* AppleTVKodi */,
+				E5801BF41DFB28FF00167599 /* AppleTVKodiTests */,
+				E5801BFF1DFB28FF00167599 /* AppleTVKodiUITests */,
+				E5801BDC1DFB28FF00167599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5801BDC1DFB28FF00167599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5801BDB1DFB28FF00167599 /* AppleTVKodi.app */,
+				E5801BF11DFB28FF00167599 /* AppleTVKodiTests.xctest */,
+				E5801BFC1DFB28FF00167599 /* AppleTVKodiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5801BDD1DFB28FF00167599 /* AppleTVKodi */ = {
+			isa = PBXGroup;
+			children = (
+				E5801BE11DFB28FF00167599 /* AppDelegate.h */,
+				E5801BE21DFB28FF00167599 /* AppDelegate.m */,
+				E5801BE41DFB28FF00167599 /* ViewController.h */,
+				E5801BE51DFB28FF00167599 /* ViewController.m */,
+				E5801BE71DFB28FF00167599 /* Main.storyboard */,
+				E5801BEA1DFB28FF00167599 /* Assets.xcassets */,
+				E5801BEC1DFB28FF00167599 /* Info.plist */,
+				E5801BDE1DFB28FF00167599 /* Supporting Files */,
+			);
+			path = AppleTVKodi;
+			sourceTree = "<group>";
+		};
+		E5801BDE1DFB28FF00167599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5801BDF1DFB28FF00167599 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5801BF41DFB28FF00167599 /* AppleTVKodiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5801BF51DFB28FF00167599 /* AppleTVKodiTests.m */,
+				E5801BF71DFB28FF00167599 /* Info.plist */,
+			);
+			path = AppleTVKodiTests;
+			sourceTree = "<group>";
+		};
+		E5801BFF1DFB28FF00167599 /* AppleTVKodiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5801C001DFB28FF00167599 /* AppleTVKodiUITests.m */,
+				E5801C021DFB28FF00167599 /* Info.plist */,
+			);
+			path = AppleTVKodiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5801BDA1DFB28FF00167599 /* AppleTVKodi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5801C051DFB28FF00167599 /* Build configuration list for PBXNativeTarget "AppleTVKodi" */;
+			buildPhases = (
+				E5801BD71DFB28FF00167599 /* Sources */,
+				E5801BD81DFB28FF00167599 /* Frameworks */,
+				E5801BD91DFB28FF00167599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleTVKodi;
+			productName = AppleTVKodi;
+			productReference = E5801BDB1DFB28FF00167599 /* AppleTVKodi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5801BF01DFB28FF00167599 /* AppleTVKodiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5801C081DFB28FF00167599 /* Build configuration list for PBXNativeTarget "AppleTVKodiTests" */;
+			buildPhases = (
+				E5801BED1DFB28FF00167599 /* Sources */,
+				E5801BEE1DFB28FF00167599 /* Frameworks */,
+				E5801BEF1DFB28FF00167599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5801BF31DFB28FF00167599 /* PBXTargetDependency */,
+			);
+			name = AppleTVKodiTests;
+			productName = AppleTVKodiTests;
+			productReference = E5801BF11DFB28FF00167599 /* AppleTVKodiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5801BFB1DFB28FF00167599 /* AppleTVKodiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5801C0B1DFB28FF00167599 /* Build configuration list for PBXNativeTarget "AppleTVKodiUITests" */;
+			buildPhases = (
+				E5801BF81DFB28FF00167599 /* Sources */,
+				E5801BF91DFB28FF00167599 /* Frameworks */,
+				E5801BFA1DFB28FF00167599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5801BFE1DFB28FF00167599 /* PBXTargetDependency */,
+			);
+			name = AppleTVKodiUITests;
+			productName = AppleTVKodiUITests;
+			productReference = E5801BFC1DFB28FF00167599 /* AppleTVKodiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5801BD31DFB28FF00167599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Fabio Silveira";
+				TargetAttributes = {
+					E5801BDA1DFB28FF00167599 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SD9L5H2692;
+						ProvisioningStyle = Automatic;
+					};
+					E5801BF01DFB28FF00167599 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SD9L5H2692;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5801BDA1DFB28FF00167599;
+					};
+					E5801BFB1DFB28FF00167599 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SD9L5H2692;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5801BDA1DFB28FF00167599;
+					};
+				};
+			};
+			buildConfigurationList = E5801BD61DFB28FF00167599 /* Build configuration list for PBXProject "AppleTVKodi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5801BD21DFB28FF00167599;
+			productRefGroup = E5801BDC1DFB28FF00167599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5801BDA1DFB28FF00167599 /* AppleTVKodi */,
+				E5801BF01DFB28FF00167599 /* AppleTVKodiTests */,
+				E5801BFB1DFB28FF00167599 /* AppleTVKodiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5801BD91DFB28FF00167599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5801BEB1DFB28FF00167599 /* Assets.xcassets in Resources */,
+				E5801BE91DFB28FF00167599 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5801BEF1DFB28FF00167599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5801BFA1DFB28FF00167599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5801BD71DFB28FF00167599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5801BE61DFB28FF00167599 /* ViewController.m in Sources */,
+				E5801BE31DFB28FF00167599 /* AppDelegate.m in Sources */,
+				E5801BE01DFB28FF00167599 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5801BED1DFB28FF00167599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5801BF61DFB28FF00167599 /* AppleTVKodiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5801BF81DFB28FF00167599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5801C011DFB28FF00167599 /* AppleTVKodiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5801BF31DFB28FF00167599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5801BDA1DFB28FF00167599 /* AppleTVKodi */;
+			targetProxy = E5801BF21DFB28FF00167599 /* PBXContainerItemProxy */;
+		};
+		E5801BFE1DFB28FF00167599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5801BDA1DFB28FF00167599 /* AppleTVKodi */;
+			targetProxy = E5801BFD1DFB28FF00167599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5801BE71DFB28FF00167599 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5801BE81DFB28FF00167599 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5801C031DFB28FF00167599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E5801C041DFB28FF00167599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5801C061DFB28FF00167599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = SD9L5H2692;
+				INFOPLIST_FILE = AppleTVKodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appletv4.AppleTVKodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5801C071DFB28FF00167599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = SD9L5H2692;
+				INFOPLIST_FILE = AppleTVKodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appletv4.AppleTVKodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E5801C091DFB28FF00167599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SD9L5H2692;
+				INFOPLIST_FILE = AppleTVKodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appletv4.AppleTVKodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTVKodi.app/AppleTVKodi";
+			};
+			name = Debug;
+		};
+		E5801C0A1DFB28FF00167599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SD9L5H2692;
+				INFOPLIST_FILE = AppleTVKodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appletv4.AppleTVKodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTVKodi.app/AppleTVKodi";
+			};
+			name = Release;
+		};
+		E5801C0C1DFB28FF00167599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SD9L5H2692;
+				INFOPLIST_FILE = AppleTVKodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appletv4.AppleTVKodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppleTVKodi;
+			};
+			name = Debug;
+		};
+		E5801C0D1DFB28FF00167599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SD9L5H2692;
+				INFOPLIST_FILE = AppleTVKodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appletv4.AppleTVKodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppleTVKodi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5801BD61DFB28FF00167599 /* Build configuration list for PBXProject "AppleTVKodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5801C031DFB28FF00167599 /* Debug */,
+				E5801C041DFB28FF00167599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5801C051DFB28FF00167599 /* Build configuration list for PBXNativeTarget "AppleTVKodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5801C061DFB28FF00167599 /* Debug */,
+				E5801C071DFB28FF00167599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5801C081DFB28FF00167599 /* Build configuration list for PBXNativeTarget "AppleTVKodiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5801C091DFB28FF00167599 /* Debug */,
+				E5801C0A1DFB28FF00167599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5801C0B1DFB28FF00167599 /* Build configuration list for PBXNativeTarget "AppleTVKodiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5801C0C1DFB28FF00167599 /* Debug */,
+				E5801C0D1DFB28FF00167599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5801BD31DFB28FF00167599 /* Project object */;
+}
